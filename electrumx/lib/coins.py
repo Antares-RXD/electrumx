@@ -74,7 +74,13 @@ class Coin:
     GENESIS_ACTIVATION = 0
     # Peer discovery
     PEER_DEFAULT_PORTS = {'t': '50001', 's': '50002'}
-    PEERS = []
+    PEERS = [
+        'electrumx.radiantexplorer.com s t',
+        'electrumx2.radiantexplorer.com s t',
+        'electrumx.radiant4people.com s t',
+        'electrumx.radiant.ovh s t',
+        'electrumx.radiantblockchain.org s t',		
+    ]
 
     @classmethod
     def lookup_coin_class(cls, name, net):
