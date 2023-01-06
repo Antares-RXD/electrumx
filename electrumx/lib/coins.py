@@ -202,11 +202,9 @@ class Coin:
 
 class Radiant(Coin):
     NAME = "Radiant"
-    TX_COUNT = 1
-    TX_COUNT_HEIGHT = 1
-    TX_PER_BLOCK = 400
-    PEERS = [
-    ]
+    TX_COUNT = 1000
+    TX_COUNT_HEIGHT = 2000
+    TX_PER_BLOCK = 5000
     GENESIS_ACTIVATION = 0
     RPC_PORT = 7332
 
@@ -272,12 +270,3 @@ class RadiantRegtest(RadiantTestnet):
     TX_COUNT_HEIGHT = 1
     GENESIS_ACTIVATION = 0
     RPC_PORT = 17443
-
-class Radiant(Coin):
-    NAME = "Radiant"
-    TX_COUNT = 1000
-    TX_COUNT_HEIGHT = 2000
-    TX_PER_BLOCK = 10
-    PEERS = [
-    ]
-    GENESIS_ACTIVATION = 0
