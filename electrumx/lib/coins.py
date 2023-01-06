@@ -79,7 +79,7 @@ class Coin:
         'electrumx2.radiantexplorer.com s t',
         'electrumx.radiant4people.com s t',
         'electrumx.radiant.ovh s t',
-        'electrumx.radiantblockchain.org s t',		
+        'electrumx.radiantblockchain.org s t'		
     ]
 
     @classmethod
